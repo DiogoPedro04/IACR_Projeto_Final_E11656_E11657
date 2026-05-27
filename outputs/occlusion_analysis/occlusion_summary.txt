@@ -1,0 +1,22 @@
+ANÁLISE DE MASCARAMENTO / OCCLUSION STUDY
+============================================================
+Número total de imagens analisadas: 927
+Número total de previsões avaliadas: 7416
+
+RESULTADOS POR CONDIÇÃO
+------------------------------------------------------------
+original: accuracy=86.30% | queda_vs_original=0.00 pp | confiança_média=5.41%
+mask_eyes: accuracy=84.14% | queda_vs_original=2.16 pp | confiança_média=5.32%
+mask_nose: accuracy=83.50% | queda_vs_original=2.80 pp | confiança_média=5.33%
+mask_mouth: accuracy=84.68% | queda_vs_original=1.62 pp | confiança_média=5.40%
+mask_face_oval: accuracy=8.63% | queda_vs_original=77.67 pp | confiança_média=1.12%
+mask_outside_face: accuracy=74.22% | queda_vs_original=12.08 pp | confiança_média=4.82%
+dark: accuracy=86.19% | queda_vs_original=0.11 pp | confiança_média=5.38%
+bright: accuracy=85.65% | queda_vs_original=0.65 pp | confiança_média=5.38%
+
+INTERPRETAÇÃO RÁPIDA
+------------------------------------------------------------
+Se mask_eyes, mask_nose ou mask_mouth provocarem grande queda, essas regiões são importantes para a decisão.
+Se mask_outside_face provocar grande queda, há indícios de dependência de cabelo, fundo, roupa ou iluminação.
+Se mask_face_oval não provocar grande queda, isso é preocupante, porque significa que o modelo pode reconhecer sem informação facial central.
+As condições dark e bright testam sensibilidade a alterações de iluminação.

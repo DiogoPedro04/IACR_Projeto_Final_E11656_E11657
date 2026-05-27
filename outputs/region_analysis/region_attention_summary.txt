@@ -1,0 +1,37 @@
+ANÁLISE DE ATENÇÃO POR REGIÃO FACIAL
+==================================================
+Número de imagens analisadas: 920
+Accuracy nesta análise: 86.63%
+
+MÉDIAS GLOBAIS (%)
+--------------------------------------------------
+left_eye: 0.24
+right_eye: 0.25
+eyes_total: 0.50
+nose: 1.51
+mouth: 0.74
+remaining_face: 19.33
+inside_face_total: 22.07
+outside_face: 77.93
+
+MÉDIAS NAS PREVISÕES CORRETAS (%)
+--------------------------------------------------
+left_eye: 0.23
+right_eye: 0.24
+eyes_total: 0.46
+nose: 1.42
+mouth: 0.70
+remaining_face: 18.45
+inside_face_total: 21.03
+outside_face: 78.97
+
+MÉDIAS NAS PREVISÕES INCORRETAS (%)
+--------------------------------------------------
+left_eye: 0.34
+right_eye: 0.36
+eyes_total: 0.69
+nose: 2.12
+mouth: 0.99
+remaining_face: 25.01
+inside_face_total: 28.82
+outside_face: 71.18

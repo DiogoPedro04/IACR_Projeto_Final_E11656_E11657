@@ -1,0 +1,54 @@
+ANÁLISE DE CASOS DE FALHA
+============================================================
+Número total de imagens avaliadas: 927
+Previsões corretas: 800
+Previsões incorretas: 127
+Accuracy: 86.30%
+Taxa de erro: 13.70%
+
+CONFIANÇA NAS FALHAS
+------------------------------------------------------------
+Confiança média nas falhas: 1.37%
+Confiança máxima numa falha: 3.54%
+Confiança mínima numa falha: 0.98%
+
+PARES DE CONFUSÃO MAIS FREQUENTES
+------------------------------------------------------------
+George_Robertson -> Gerhard_Schroeder: 4 vez(es)
+Spencer_Abraham -> Recep_Tayyip_Erdogan: 4 vez(es)
+Pierce_Brosnan -> Gerhard_Schroeder: 3 vez(es)
+Michael_Jackson -> Gloria_Macapagal_Arroyo: 3 vez(es)
+Mark_Philippoussis -> Jose_Maria_Aznar: 3 vez(es)
+Paul_Burrell -> Gerhard_Schroeder: 3 vez(es)
+Britney_Spears -> Naomi_Watts: 3 vez(es)
+Dick_Cheney -> Ariel_Sharon: 3 vez(es)
+Kim_Ryong-sung -> Arnold_Schwarzenegger: 2 vez(es)
+Hillary_Clinton -> Tony_Blair: 2 vez(es)
+Roger_Federer -> Jose_Maria_Aznar: 2 vez(es)
+Jason_Kidd -> Andre_Agassi: 2 vez(es)
+Jean-David_Levitte -> Alejandro_Toledo: 2 vez(es)
+Jennifer_Garner -> Angelina_Jolie: 2 vez(es)
+Pervez_Musharraf -> Tony_Blair: 2 vez(es)
+
+FALHAS COM MAIOR CONFIANÇA
+------------------------------------------------------------
+Sergio_Vieira_De_Mello -> George_W_Bush | confiança=3.54% | imagem=./data/processed/test/Sergio_Vieira_De_Mello/Sergio_Vieira_De_Mello_0001.jpg
+George_Robertson -> Gerhard_Schroeder | confiança=2.69% | imagem=./data/processed/test/George_Robertson/George_Robertson_0014.jpg
+George_Robertson -> Gerhard_Schroeder | confiança=2.51% | imagem=./data/processed/test/George_Robertson/George_Robertson_0001.jpg
+George_Robertson -> Gerhard_Schroeder | confiança=2.14% | imagem=./data/processed/test/George_Robertson/George_Robertson_0016.jpg
+George_Robertson -> Gerhard_Schroeder | confiança=1.94% | imagem=./data/processed/test/George_Robertson/George_Robertson_0002.jpg
+Venus_Williams -> Serena_Williams | confiança=1.88% | imagem=./data/processed/test/Venus_Williams/Venus_Williams_0001.jpg
+Paul_Burrell -> Gerhard_Schroeder | confiança=1.84% | imagem=./data/processed/test/Paul_Burrell/Paul_Burrell_0006.jpg
+Jeb_Bush -> George_W_Bush | confiança=1.81% | imagem=./data/processed/test/Jeb_Bush/Jeb_Bush_0011.jpg
+Paul_Burrell -> Gerhard_Schroeder | confiança=1.78% | imagem=./data/processed/test/Paul_Burrell/Paul_Burrell_0001.jpg
+Paul_Burrell -> Gerhard_Schroeder | confiança=1.78% | imagem=./data/processed/test/Paul_Burrell/Paul_Burrell_0010.jpg
+Dick_Cheney -> Ariel_Sharon | confiança=1.73% | imagem=./data/processed/test/Dick_Cheney/Dick_Cheney_0001.jpg
+Sergey_Lavrov -> Silvio_Berlusconi | confiança=1.72% | imagem=./data/processed/test/Sergey_Lavrov/Sergey_Lavrov_0006.jpg
+Edmund_Stoiber -> Ariel_Sharon | confiança=1.69% | imagem=./data/processed/test/Edmund_Stoiber/Edmund_Stoiber_0010.jpg
+Pierce_Brosnan -> Gerhard_Schroeder | confiança=1.67% | imagem=./data/processed/test/Pierce_Brosnan/Pierce_Brosnan_0012.jpg
+Pervez_Musharraf -> Tony_Blair | confiança=1.67% | imagem=./data/processed/test/Pervez_Musharraf/Pervez_Musharraf_0002.jpg
+
+INTERPRETAÇÃO PARA O RELATÓRIO
+------------------------------------------------------------
+Estes casos devem ser analisados visualmente para perceber se os erros estão associados a pose, expressão facial, baixa qualidade da imagem, iluminação, oclusões, semelhança entre indivíduos ou dependência de elementos exteriores à face.
+As falhas com maior confiança são especialmente importantes, porque indicam situações em que o modelo erra mas apresenta elevada certeza na decisão.

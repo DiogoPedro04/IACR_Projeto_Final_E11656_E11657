@@ -1,0 +1,51 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+iacr-face/
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Dados grandes
+data/lfw-deepfunneled/
+data/processed/
+
+# Modelos grandes
+models/*.pth
+
+# Manter ficheiros úteis dos modelos
+!models/class_names.json
+
+# Outputs intermédios pesados
+outputs/gradcam_examples/
+outputs/segmentation_examples/
+
+# Manter resultados finais importantes
+!outputs/
+!outputs/final_figures/
+!outputs/final_figures/**
+!outputs/region_analysis/
+!outputs/region_analysis/*.csv
+!outputs/region_analysis/*.txt
+!outputs/occlusion_analysis/
+!outputs/occlusion_analysis/*.csv
+!outputs/occlusion_analysis/*.txt
+!outputs/occlusion_analysis/*.png
+!outputs/failure_cases/
+!outputs/failure_cases/*.csv
+!outputs/failure_cases/*.txt
+!outputs/failure_cases/examples/
+!outputs/failure_cases/examples/**
